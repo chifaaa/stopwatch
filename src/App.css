@@ -1,22 +1,15 @@
-.App {
+.time-container {
   text-align: center;
+  color: rgb(120, 36, 148);
 }
-
-.App-logo {
-  height: 40vmin;
+.time-inner-container {
+  display: inline-block;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.time-digits {
+  font-size: 4em;
+}
+.time-text {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
+  justify-content: space-around;
+  color: rgb(178, 154, 209);
 }
